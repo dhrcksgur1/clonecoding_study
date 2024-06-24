@@ -1,0 +1,495 @@
+@charset "utf-8";
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+*{margin: 0; padding: 0;
+    font-family: 'Pretendard-Regular';
+}
+img{
+    width: 650px;
+    height: 750px;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+/* Header 시작  */
+.header {
+    width: 100%;
+    background-color: #fff;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 999;
+}
+
+.header .header-wrap {
+    width: 1200px;
+    margin: 0 auto;
+    justify-content: space-between;
+    display: flex;
+    height: 64px;
+    box-sizing: border-box;
+    align-items: center;
+    padding: 12px 20px;
+    box-sizing: border-box;
+}
+
+.nav ul {
+    display: flex;
+    line-height: 80px;
+    margin: 0 auto;
+}
+
+.nav ul li {
+    font-size: 18px;
+    text-align: center;
+    cursor: pointer;
+    margin-right: 30px;
+    color: #415d59;
+    font-weight: bold;
+}
+.nav ul li:nth-child(5){
+    padding-right: 40px;
+}
+.nav ul li:hover{
+    opacity: 0.5;
+}
+.chat {
+    font-size: 12px;
+}
+
+.chat input[type=search] {
+    flex-basis: 10%;
+    width: 264px;
+    padding: 9px 12px;
+    height: 40px;
+    margin: 16px 0;
+    border-radius: 6px;
+    border: 1px solid white;
+    background-color: #eee;
+    font-size: 14px;
+}
+
+.chat button{
+    width: 100px;
+    padding: 8px 16px;
+    color: #212529;
+    border-radius: 6px;
+    border: 1px solid gray;
+    background-color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+}
+.chat button:hover{
+    opacity: 0.7;
+}
+/* body 시작 */
+
+.main{
+    width: 100%;
+   
+}
+.main .NearComunity{
+    margin-top: 0px;
+    background-color: #FFFAE0;
+    height: 820px;
+    display: flex; 
+    justify-content: center;/*justify -content(가로축 - 중심축):  가로 축을 기준으로 좌우에 대한 정렬. 
+    가로 축을 기준으로 좌우에 대한 정렬 요소들을 컨테이너의 중앙으로 정렬
+    출처: https://ipex.tistory.com/entry/CSS3-flex-Box-justifycontent-alignitems*/
+}
+.main .NearComunity h3{
+    font-size: 54px;
+    font-weight: 700;
+    line-height: 73px;
+    padding-top: 200px;
+    margin-bottom: 3.2rem; /*rem:문서의 최상위 요소, 즉 html 요소의 크기의 몇 배인지로 크기를 정함(상대단위). 즉, html의 margin-bottom px값의 3.2배*/
+}
+
+.main .NearComunity .NearComunity_images img{
+   width: 655px;
+   height: 800px;
+}
+.main .NearComunity .NearComunity_desc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.main .NearComunity .NearComunity_desc p{
+    font-size: 20px;
+    color: #7c7c7c;
+    margin-bottom: 30px;
+}
+.main .NearComunity .NearComunity_desc button {
+    width: 180px;
+    height: 56px;
+    border-radius: 10px;
+    background-color: #FF6F0F;
+    box-sizing: border-box;
+    text-decoration: none;
+    padding: 14px 2rem;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    margin-right: 1rem;
+    border: none;
+    cursor: pointer;
+}
+.main .NearComunity .NearComunity_desc .btn .btn_desc{
+    display: flex;
+    align-items: center;
+}
+.main .NearComunity .NearComunity_desc button span{
+    margin-left: 10px;
+    font-size: 16px;
+    color: #fff;
+}
+.main .NearComunity .NearComunity_desc button svg{
+    width: 18px;
+    height: 22px;
+}
+.main .NearComunity .NearComunity_desc button:hover{
+    opacity: 0.8;
+    background-color: orangered
+}
+
+
+.section{
+    width: 100%;
+}
+.section .section_wrap{
+    width: 1024px;
+    display: flex;
+    align-items: center; /*align-items 세로 축을 기준으로 정렬을 하게 됩니다. 컨테이너의 세로 축의 중앙으로 정렬 합니다.*/
+    margin: 0 auto;
+}
+.section .section_wrap .section_images img{
+    width: 655px;
+    height: 750px;
+}
+.section .section_wrap .section_desc{
+    display: flex;/*= display: inline-flex;Flex 아이템들은 가로 방향으로 배치되고, 자신이 가진 내용물의 width 만큼만 차지
+    (+height는 컨테이너의 높이만큼 늘어남)
+    https://studiomeal.com/archives/197*/
+    flex-direction: column;/*flex-direction 이라 함은 컨테이너 내부의 아이템들이 만들어지는 방향 clomn:위 에서 아래로 붙는다.
+    https://studiomeal.com/archives/197*/
+    height: 350px;
+}
+.section .section_wrap .section_desc p{
+    color: #FF6F0F;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+.section .section_wrap .section_desc h1{
+    color: #212529;
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+.section .section_wrap .section_desc span{
+    font-size: 20px;
+    color: #7c7c7c;
+    margin-bottom: 30px;
+}
+.section .section_wrap .section_desc .desc_btn{
+    display: flex;
+    flex-direction: column;
+}
+.section .section_wrap .section_desc .desc_btn button{
+    background-color: #E9ECEF;
+    color: #212529;
+    border: none;
+    border-radius: 6px; /*border-radius: 테두리를 둥글게 만드는 속성/속성값: px, % 그 길이만큼 둥글게/ 숫자값이 하나만 주어지면, 이는 모서리 4곳의 radius 값이 모두 동일함을 의미한다.
+    총 4개의 모서리를 각각 다른 값으로도 줄 수 있습니다. margin 및 padding 속성 처럼 4개의 값을 띄워쓰면 왼쪽-위 부터 시계 방향으로 각자 다른 값을 지정할 수 있습니다
+    https://www.codingfactory.net/10957 */
+    text-decoration: none; /*text-decoration: 선으로 텍스트를 꾸밀 수 있게 해주는 속성
+    https://www.codingfactory.net/10648 */
+    padding: 12px 2rem;
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 18px;
+    color: #212529;
+    font-weight: bold;/*bold : 굵은 굵기 =700.*/
+    margin-bottom: 20px;
+}
+
+
+.section_neighborhood{
+    width: 100%;
+    background-color: #FFF8F1;
+}
+.section_neighborhood .neighborhood_wrap{
+    width: 1024px;
+    display: flex;
+    margin: 0 auto; /*위 아래에는 여백x. 좌우는 균등하게 값을 주어 중앙에 두게 된다. */
+    align-items: center; 
+}
+.section_neighborhood .neighborhood_wrap .neighborhood_desc{
+    flex-direction: column;
+    align-items: center;
+}
+.section_neighborhood .neighborhood_wrap .neighborhood_desc > p{
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #ff6f0f;
+}
+.section_neighborhood .neighborhood_wrap .neighborhood_desc h1{
+    margin-bottom: 10px;
+    font-size: 42px;
+}
+.section_neighborhood .neighborhood_wrap .neighborhood_desc span{
+    color: #7c7c77;
+    font-size: 20px;
+}
+.section_neighborhood .neighborhood_wrap .neighborhood_desc ul{
+    display: flex;
+    margin-top: 40px;
+}
+.section_neighborhood .neighborhood_wrap .neighborhood_desc ul li{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /*요소들 사이에 동일한 간격을 둡니다.*/
+    flex-basis: 33.3%;
+    height: 150px;
+}
+.section_neighborhood .neighborhood_wrap .neighborhood_desc ul li svg{
+    width: 30px;
+    height: 30px;
+    background-color: #FFE5D1;
+    padding: 12px;
+    border-radius: 10px;
+}
+.section_neighborhood .neighborhood_wrap .neighborhood_desc ul li span{
+    font-weight: bold;
+    color: #212529;
+    font-size: 16px;
+}
+.section_neighborhood .neighborhood_wrap .neighborhood_desc ul li p{
+    font-size: 13px;
+    color: #7c7c7c;
+}
+
+
+.section_work{
+    width: 100%;
+}
+.section_work .work_wrap{
+    display: flex;
+    width: 1080px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+}
+.section_work .work_wrap .work_desc{
+    display: flex;
+    flex-direction: column;
+}
+.section_work .work_wrap .work_desc p{
+    margin-bottom: 15px;
+    color: #FF6F0F;
+    font-weight: bold;
+    font-size: 18px;
+}
+.section_work .work_wrap .work_desc h1{
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+.section_work .work_wrap .work_desc span{
+    font-size: 20px;
+    color: #7c7c7c;
+    margin-bottom: 15px;
+}
+.section_work .work_wrap .work_desc button{
+    padding: 12px 20px;
+    background-color: #E9ECEF;
+    color: #212529;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+   margin-top: 40px;
+   font-weight: bold;
+   cursor: pointer;
+}
+.section_work .work_wrap .work_desc button:hover{
+    background-color: #e4e4e4;
+    opacity: 0.9; /*0.0~1.0 숫자가 작을수록 투명.*/
+}
+
+.section_LocalStore{
+    width: 100%;
+    background-color: #F6FDEC;
+}
+.section_LocalStore .LocalStore_wrap{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    width: 1080px;
+}
+.section_LocalStore .LocalStore_wrap .LocalStore_desc{
+    display: flex;
+    flex-direction: column;
+}
+.section_LocalStore .LocalStore_wrap .LocalStore_desc p{
+    margin-bottom: 10px;
+    color: #FF6F0F;
+    font-size: 18px;
+}
+.section_LocalStore .LocalStore_wrap .LocalStore_desc h1{
+    font-size: 42px;
+    color: #212529;
+    margin-bottom: 20px;
+}
+.section_LocalStore .LocalStore_wrap .LocalStore_desc p{
+    font-size: 20px;
+    color: #7c7c7c;
+    margin-bottom: 20px;
+}
+.section_LocalStore .LocalStore_wrap .LocalStore_desc button{
+    padding: 12px 20px;
+    background-color: #E9ECEF;
+    margin-right: 10px;
+    margin-top: 40px;
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer; /*커서모양 손 모양으로 
+    http://www.homejjang.com/09/cursor.php <<여러 커서 확인 가능*/
+}
+.section_LocalStore .LocalStore_wrap .LocalStore_desc button:hover{
+    background-color: #e4e4e4;
+}
+/* footer */
+.footer{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+}
+.footer .footer_wrap{
+    max-width: 76.8rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    width: 768px;
+    padding: 48px 0;
+}
+
+.footer .footer_wrap ul{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+.footer .footer_wrap ul li{
+    margin-bottom: 20px;
+}
+.footer .footer_wrap ul li a{
+    color: #212124;
+    font-size: 14px;
+}
+.footer .footer_wrap .footer_application{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-left: 15px;
+}
+.footer .footer_wrap .footer_application .site_btn{
+    display: flex;
+    justify-content: space-between;
+}
+.footer .footer_wrap .footer_application .download{
+    margin-bottom: 10px;
+    color: #212124;
+    font-size: 14px;
+    font-weight: 600;
+}
+.footer .footer_wrap .footer_application .site_btn .apple_btn{
+   display: flex;
+   padding: 14px;
+   width: 147px;
+   justify-content: space-around;
+   margin-right: 10px;
+}
+.footer .footer_wrap .footer_application .site_btn .apple_btn svg{
+    width: 20px;
+    height: 20px;
+}
+.footer .footer_wrap .footer_application .site_btn .apple_btn span{
+    font-weight: bold;
+    font-size: 15px;
+    color: black;
+}
+.footer .footer_wrap .footer_application .site_btn button p{
+    box-sizing: border-box;
+}
+.footer .footer_wrap .footer_application .site_btn button{
+    border: none;
+    width: 120px;
+    border-radius: 10px;
+}
+.footer .info{
+    width: 40%;
+    margin: 0 auto;
+    border-top: 1px solid #ddd;
+}
+.footer .info .componyinfo ul:nth-child(1){
+    margin-top: 20px;
+}
+.footer .info .componyinfo ul li p,span{
+    color: #868b94;
+    font-size: 13px;
+}
+.footer .info .componyinfo ul li span{
+    font-weight: bold;
+}
+
+.footer .info .componyinfo .inquiry{
+    display: flex;
+    margin-top: 20px;
+}
+.footer .info .componyinfo .inquiry li{
+    margin-right: 16px;
+
+}
+.footer .info .componyinfo .inquiry li a{
+    color: #868b94;
+    font-size: 13px;
+}
+.footer .info .componyinfo .terms{
+    display: flex;
+    margin-top: 20px;
+}
+.footer .info .componyinfo .terms li a{
+    color: #868b94;
+    font-size: 13px;
+    margin-right: 10px;
+}
+.footer .info .componyinfo .footer_iconInfo .icons{
+    display: flex;
+    margin-top: 20px;
+}
+.footer .info .componyinfo .footer_iconInfo .icons li{
+    margin-right: 10px;
+    width: 30px;
+    
+}
+.footer .info .componyinfo .footer_iconInfo .icons li svg{
+    width: 25px;
+    height: 24px;
+}
+
+.footer .info .componyinfo .footer_iconInfo{
+    display: flex;
+    justify-content: space-between;
+   
+}

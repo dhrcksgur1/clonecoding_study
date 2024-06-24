@@ -1,0 +1,275 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none; /*택스트 밑줄 제거*/
+  color: #111;
+}
+
+/* 추가 매물 사진 */
+.carretMarketProduct-popular {
+  width: 677px;
+  margin: 0 auto;
+  padding-top: 32px;
+  position: relative;
+}
+
+.carretMarketProduct-popular .card-photo {
+  width: 100%;
+  padding-top: 100%;
+  position: relative;
+  overflow: hidden; /*크기가 고정되어 있고 내용이 그 크기를 초과할 경우 초과분을 감춘다.*/
+  border-radius: 12px;
+  background-color: #f8f9fa;
+  box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.15);
+  box-sizing: border-box;
+}
+/* 전체적인 구조 */
+.body {
+  width: 729px;
+  margin: 0 auto;
+  background-color: white;
+}
+
+#main-body {
+  background-color: white;
+  margin: 40px 0;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+#main-content {
+  background-color: white;
+  margin: 0;
+  padding: 20px 20px;
+  border-radius: 0;
+}
+
+/* 메인 사진 */
+.main-image {
+  width: 100%;
+  height: 500px;
+  border-radius: 1%;
+  object-fit: contain; /*이미지나 비디오 요소를 지정된 크기에 맞게 조절*/
+}
+
+/* 판매자 정보 */
+.section-profile {
+  margin-top: 1px;
+}
+
+.section-profile .seller-container {
+  text-decoration: none;
+  display: block;
+  margin-top: 25px;
+  padding-bottom: 23px;
+  position: relative;
+  border-bottom: 1px solid #e9ecef;
+}
+
+.section-profile .seller-container:hover{
+  cursor: pointer;
+}
+
+.seller-data{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.left-seller {
+  float: left;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.left-seller div {
+  margin-left: 10px;
+}
+
+.seller-name {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.seller-name:hover {
+  text-decoration: underline;
+}
+
+.seller-place {
+  font-size: 13px;
+}
+
+.right-seller1 {
+  float: right;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.right-seller1 div {
+  margin-right: 5px;
+}
+
+.right-seller1 img{
+  margin-right: 4px;
+}
+
+.seller-tem {
+  position: absolute;
+  line-height: 1;
+  letter-spacing: -0.5px;
+  margin-top: 1px;
+  width: 100px;
+  text-align: right;
+  font-size: 16px;
+  font-weight: bold;
+  color: #2b7ef1;
+  margin-right: 10px;
+}
+
+.right-seller2 {
+  position: absolute;
+  top: 36px;
+  right: 0px;
+  font-size: 13px;
+  line-height: 2;
+  letter-spacing: -0.6px;
+  color: #868e96;
+}
+
+.progress-bar {
+  clear: both;
+  display: block;
+  position: relative;
+  margin-top: 24px;
+  width: 100px;
+  height: 5px;
+  border-radius: 10px;
+  background-color: #dedede;
+}
+
+.progress-bar .progress {
+  width: 30%;
+  height: 5px;
+  border-radius: 10px;
+  padding: 0;
+  text-align: center;
+  background-color: #2b7ef1;
+  color: #111;
+}
+
+/* 작성 글 */
+.article-body {
+  border-bottom: 1px solid #e9ecef;
+  padding-top: 32px;
+}
+
+.article-title {
+  font-size: 20px;
+  padding-bottom: 5px;
+  font-weight: bold;
+}
+
+.article-menu {
+  color: gray;
+  font-size: 13px;
+  padding-bottom: 10px;
+}
+
+.article-price {
+  font-size: 18px;
+  padding-bottom: 20px;
+  font-weight: bold;
+  
+}
+
+.article-text {
+  font-size: 17px;
+  line-height: 1.6;
+}
+
+.article-message {
+  color: gray;
+  font-size: 13px;
+  margin: 25px 0;
+  letter-spacing: -0.5px; /*글자 간격 줄이기*/
+}
+
+/* 인기중고 배너 */
+.left-ad-title {
+  float: left;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.right-ad-title {
+  float: right;
+  font-size: 18px;
+  color: orange;
+  
+}
+
+.right-ad-title:hover {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#used-article-ad article {
+  margin-top: 10px;
+}
+
+#used-article-ad {
+  margin-top: 30px;
+}
+
+.ad-body {
+  display: flex;
+  align-items: center;
+  margin-bottom: 60px;
+  margin-left: 20px;
+  margin-right: 20px;
+  justify-content: space-evenly;
+}
+
+.ad-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 5%;
+  border: 1px solid #e9ecef;
+  object-fit: contain; /*이미지를 요소에 맞게 확대 하거나 축소 시켜준다.*/
+}
+
+.carretMarketProduct-popular .ad-body .used-ad {
+  margin-right: 20px;
+}
+
+.carretMarketProduct-popular .ad-body .used-ad:hover {
+  cursor: pointer;
+}
+
+.ad-title {
+  font-size: 16px;
+  font-weight: 400;
+  padding-top: 13px;
+  padding-bottom: 7px;
+}
+
+.ad-price {
+  font-size: 14px;
+  font-weight: bold;
+  padding-bottom: 7px;
+}
+
+.ad-place {
+  font-size: 13px;
+  padding-bottom: 5px;
+}
+
+.ad-message {
+  font-size: 13px;
+  color: gray;
+}

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>알바</title>
+
+  <script src="../Scipts/includeHTML.js"></script>
+  <link rel="stylesheet" href="../styles/parttime.css">
+  <link rel="stylesheet" href="../styles/header_stylesheet.css">
+  <link rel="stylesheet" href="../styles/footer.css">
+</head>
+
+<body>
+
+  <!-- header -->
+  <div include-html="./header.html">
+    <script>
+      includeHTML();
+    </script>
+  </div>
+
+
+  <div class="main">
+
+    <!-- 페이지 라벨 -->
+    <section class="parttime-label">
+      <!-- 페이지 라벨 설명 -->
+      <div class="label-content">
+        <div class="label-desc">
+          <h1 class="label-desc-title">우리 동네에서 찾는<br>당근알바</h1>
+          <p class="label-desc-subtitle">걸어서 10분 거리의<br>동네 알바들 여기 다 있어요.</p>
+          <div class="label-desc-button">
+            <button type="button" class="upload-button">공고 올리기</button>
+          </div>
+        </div>
+
+        <!-- 페이지 라벨 이미지 -->
+        <div class="label-img">
+          <span>
+            <img src="../images/jobs_hero_3x.b118130e.png" alt="town-with-uniform-icon">
+          </span>
+        </div>
+      </div>
+    </section>
+
+
+
+    <!-- 페이지 아이템 리스트 -->
+    <section class="item-list">
+      <h2 class="item-title">인기 당근알바</h2>
+      <div class="item-cards">
+
+      </div>
+      <div class="item-list-label-first">
+        <div class="item-list-label-first-img-desc">
+          <div class="item-list-label-first-img">
+            <span>
+              <img src="../images/jobs_banner_resume.d5c658f3.png" alt="유니폼이 그려진 이력서">
+            </span>
+          </div>
+          <div class="item-list-label-first-desc">
+            당근알바 이용방법이 궁금하다면<br>지금 바로 알아보세요!
+          </div>
+        </div>
+        <button class="about-link">
+          이용방법 알아보기
+        </button>
+      </div>
+
+      <div class="item-cards">
+
+      </div>
+
+      <div class="item-list-label-second">
+        <div class="item-list-label-second-img-desc">
+          <div class="item-list-label-second-img">
+            <span>
+              <img src="../images/jobs_banner_marker.9910006c.png" alt="유니폼이 그려진 이력서">
+            </span>
+          </div>
+          <div class="item-list-label-second-desc">
+            우리동네 알바가 궁금하다면<br>당근에서 바로 찾아보세요!
+          </div>
+        </div>
+        <button class="about-link">
+          앱 다운로드 하기
+        </button>
+      </div>
+    </section>
+
+  </div>
+
+
+  <!-- footer -->
+  <div include-html="./footer.html">
+    <script>
+      includeHTML();
+    </script>
+  </div>
+
+</body>
+<script type="module" src="../Scipts/parttime.js"></script>
+
+</html>

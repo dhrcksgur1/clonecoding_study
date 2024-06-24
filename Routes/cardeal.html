@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>중고차</title>
+
+  <script src="../Scipts/includeHTML.js"></script>
+  <link rel="stylesheet" href="../styles/header_stylesheet.css">
+  <link rel="stylesheet" href="../styles/cardeal.css">
+  <link rel="stylesheet" href="../styles/footer.css">
+</head>
+
+<body>
+
+  <!-- header -->
+  <div include-html="./header.html">
+    <script>
+      includeHTML();
+    </script>
+  </div>
+
+
+  <div class="main">
+
+    <!-- 페이지 라벨 -->
+    <section class="parttime-label">
+      <!-- 페이지 라벨 설명 -->
+      <div class="label-content">
+        <div class="label-desc">
+          <h1 class="label-desc-title">딜러 수수료 없는<br>중고차 직거래</h1>
+          <p class="label-desc-subtitle">딜러 없이 믿고 살 수 있는 중고차,<br>당근에서 직거래해보세요.</p>
+          <div class="label-desc-button">
+            <button type="button" class="upload-button">내 차 판매하기</button>
+          </div>
+        </div>
+
+        <!-- 페이지 라벨 이미지 -->
+        <div class="label-img">
+          <span>
+            <img src="../images/car_hero_3x.f057110b.png" alt="town-with-uniform-icon">
+          </span>
+        </div>
+      </div>
+    </section>
+
+
+
+    <!-- 페이지 아이템 리스트 -->
+    <section class="item-list">
+      <h2 class="item-title">인기 중고차</h2>
+      <div class="item-cards">
+
+      </div>
+      <div class="item-list-label-first">
+        <div class="item-list-label-first-img-desc">
+          <div class="item-list-label-first-img">
+            <span>
+              <img src="../images/car_icon_2x.20c4e691.png" alt="유니폼이 그려진 이력서">
+            </span>
+          </div>
+          <div class="item-list-label-first-desc">
+            딜러 수수료 없는 중고차 직거래<br>당근 내 근처 탭에서 바로 찾아보세요!
+          </div>
+        </div>
+        <button class="about-link">
+          앱 다운로드 하기
+        </button>
+      </div>
+
+      <div class="item-cards">
+
+      </div>
+    </section>
+  </div>
+
+  <!-- footer -->
+  <div include-html="./footer.html">
+    <script>
+      includeHTML();
+    </script>
+  </div>
+
+</body>
+<script type="module" src="../Scipts/cardeal.js"></script>
+
+</html>

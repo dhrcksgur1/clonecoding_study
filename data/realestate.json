@@ -1,0 +1,162 @@
+[
+    {
+        "id": 1,
+        "name": "투룸 이상",
+        "price": "단기 300/1",
+        "region": "만수동",
+        "imgLink": "../images/realestate/1.jpg",
+        "itemLink": "../Routes/carretMarketProduct1.html"
+    },
+    {
+        "id": 2,
+        "name": "아파트 1억",
+        "price": "1억 9,100",
+        "region": "석현동",
+        "imgLink": "../images/realestate/7.jpg",
+        "itemLink": "../Routes/carretMarketProduct1.html"
+    },
+    {
+        "id": 3,
+        "name": "상가 400/60만원",
+        "price": "월세 400/50",
+        "region": "부평동",
+        "imgLink": "../images/realestate/2.jpg",
+        "itemLink": "../Routes/carretMarketProduct1.html"
+    },
+    {
+        "id": 4,
+        "name": "아파트 6억",
+        "price": "전세 6억원",
+        "region": "성복동",
+        "imgLink": "../images/realestate/9.jpg",
+        "itemLink": "../Routes/carretMarketProduct1.html"
+    },
+    {
+        "id": 5,
+        "name": "분리형 원룸 100만원/35만원",
+        "price": "월세 100/35",
+        "region": "성산읍",
+        "imgLink": "../images/realestate/3.jpg",
+        "itemLink": "../Routes/carretMarketProduct1.html"
+    },
+    {
+        "id": 6,
+        "name": "오픈형 원룸",
+        "price": "월세 200/33",
+        "region": "연동",
+        "imgLink": "../images/realestate/4.jpg",
+        "itemLink": "../Routes/carretMarketProduct1.html"
+    },
+    {
+        "id": 7,
+        "name": "아파트 1,000만원/2,000만원",
+        "price": "연세 1,000 / 2,000",
+        "region": "진접읍",
+        "imgLink": "../images/realestate/5.jpg",
+        "itemLink": "../Routes/carretMarketProduct1.html"
+    },
+    {
+        "id": 8,
+        "name": "아파트 3억",
+        "price": "3억",
+        "region": "대잠종",
+        "imgLink": "../images/realestate/6.jpg",
+        "itemLink": "../Routes/carretMarketProduct1.html"
+    },
+    {
+        "id": 9,
+        "name": "아파트 500만원/0만원",
+        "price": "연세 500/0",
+        "region": "제주",
+        "imgLink": "../images/realestate/8.jpg",
+        "itemLink": "../Routes/carretMarketProduct1.html"
+    },
+    {
+        "id": 10,
+        "name": "아파트 2억 4,000",
+        "price": "매매 2억 4,000",
+        "region": "하단동",
+        "imgLink": "../images/realestate/10.jpg",
+        "itemLink": "../Routes/carretMarketProduct1.html"
+    },
+    {
+        "id": 11,
+        "name": "아파트 3억 4,000만원",
+        "price": "매매 3억 4,000",
+        "region": "신정동",
+        "imgLink": "../images/realestate/11.jpg",
+        "itemLink": "../Routes/carretMarketProduct1.html"
+    },
+    {
+        "id": 12,
+        "name": "아파트 3억, 500만",
+        "price": "매매 3억 500",
+        "region": "수성동",
+        "imgLink": "../images/realestate/12.jpg",
+        "itemLink": "../Routes/carretMarketProduct1.html"
+    },
+    {
+        "id": 13,
+        "name": "분리형 원룸",
+        "price": "월세 500/50",
+        "region": "염리동",
+        "imgLink": "../images/realestate/13.jpg",
+        "itemLink": "../Routes/carretMarketProduct1.html"
+    },
+    {
+        "id": 14,
+        "name": "오픈형 원룸",
+        "price": "월세 200/25",
+        "region": "번동",
+        "imgLink": "../images/realestate/14.jpg",
+        "itemLink": "../Routes/carretMarketProduct1.html"
+    },
+    {
+        "id": 15,
+        "name": "오픈형 원룸",
+        "price": "연세 100 / 0",
+        "region": "노형동",
+        "imgLink": "../images/realestate/15.jpg",
+        "itemLink": "../Routes/carretMarketProduct1.html"
+    },
+    {
+        "id": 16,
+        "name": "오피스텔 2억 2,900만원",
+        "price": "매매 2억 2,900",
+        "region": "불로동",
+        "imgLink": "../images/realestate/16.jpg",
+        "itemLink": "../Routes/carretMarketProduct1.html"
+    },
+    {
+        "id": 17,
+        "name": "투룸이상 8,000만원",
+        "price": "매매 8,000",
+        "region": "예천읍",
+        "imgLink": "../images/realestate/17.jpg",
+        "itemLink": "../Routes/carretMarketProduct1.html"
+    },
+    {
+        "id": 18,
+        "name": "아파트 4억",
+        "price": "4억",
+        "region": "지묘동",
+        "imgLink": "../images/realestate/18.jpg",
+        "itemLink": "../Routes/carretMarketProduct1.html"
+    },
+    {
+        "id": 19,
+        "name": "분리형 원룸",
+        "price": "전세 8,500",
+        "region": "서울",
+        "imgLink": "../images/realestate/19.jpg",
+        "itemLink": "../Routes/carretMarketProduct1.html"
+    },
+    {
+        "id": 20,
+        "name": "투룸 이상 8,000",
+        "price": "예천읍",
+        "region": "서울",
+        "imgLink": "../images/realestate/20.jpg",
+        "itemLink": "../Routes/carretMarketProduct1.html"
+    }
+]

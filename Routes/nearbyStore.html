@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>동네업체</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="shortcut icon" type="image/x-icon" href="https://d1unjqcospf8gs.cloudfront.net/favicon.ico">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+
+  <link rel="stylesheet" href="../styles/nearbyStore.css">
+
+  <script src="../Scipts/includeHTML.js"></script>
+  <link rel="stylesheet" href="../styles/header_stylesheet.css">
+  <link rel="stylesheet" href="../styles/footer.css">
+</head>
+
+<body>
+
+  <div include-html="./header.html">
+    <script>
+      includeHTML();
+    </script>
+  </div>
+
+  <section class="nearby_thumnail_background">
+    <div class="nearby_thumnail">
+      <div class="nearby_thumnail_detail">
+        <h1>동네 이웃들이<br>자주 가는 동네 가게</h1>
+        <p>우리 동네 사람들이<br>이용하는 가게를 찾아보세요.</p>
+      </div>
+      <div class="nearby_thumnail_image">
+        <img src="https://www.daangn.com/_next/static/media/nearby_stores_hero_image_3x.47c43e04.png" alt="">
+      </div>
+    </div>
+  </section>
+  <section class="nearby_store_list">
+    <div class="nearby-store-list-title d-flex mx-auto text-center">
+      <h2 class="fw-bold my-4 mx-auto">다양한 동네가게를 볼 수 있어요</h2>
+    </div>
+    <div class="nearby-store-nav nav nav-pills justify-content-center mb-4">
+      <a class="btn border me-2 rounded-pill selected" href="#">전체</a>
+      <a class="btn border me-2 rounded-pill" href="#">식당</a>
+      <a class="btn border me-2 rounded-pill" href="#">카페</a>
+      <a class="btn border me-2 rounded-pill" href="#">용달/이사</a>
+      <a class="btn border me-2 rounded-pill" href="#">뷰티/미용</a>
+      <a class="btn border me-2 rounded-pill" href="#">헬스/필라테스/요가</a>
+    </div>
+
+    <ul class="nearby_store_ul mx-auto row" id="nearbyStoresList">
+      <!-- nearbyStore.js에서 json데이터받은거로 출력 -->
+    </ul>
+  </section>
+  <section class="nearby_store_reviews mb-5">
+    <div class="d-flex mx-auto text-center ms-2">
+      <h2 class="fw-bold mb-5">동네 이웃이 남긴 후기를 찾아보세요</h2>
+    </div>
+    <ul class="nearby_store_review_ul row row-cols-1 row-cols-md-2 mx-auto">
+      <li>
+        <a href="" class="nearby_store_review d-flex flex-column border rounded">
+          <div class="nearby_store_review_reviewer d-flex align-items-center">
+            <div class="reviewr_info_thumbnail d-flex align-items-center">
+              <img class="rounded-circle w-100 h-100" src="https://dnvefa72aowie.cloudfront.net/origin/profile/202002/3244f404c0732ca362f887b5ff696badbbf11f83f63e4a7a411323dee5a0461e.webp?q=82&s=640x640&t=crop" alt="">
+            </div>
+            <div class="review_info_content d-flex flex-column justify-content-center ms-3">
+              <div class="d-flex">
+                <span class="fs-6 fw-bold me-2">미소</span>
+                <div class="reviewer-info-content__badge rounded-pill">단골</div>
+              </div>
+              <span class="store_item_content_more">삼산동 인증 8회 ∙ 2년 이상</span>
+            </div>
+          </div>
+          <div class="text-trunc_twoline mb-2">원장님이 인상도 좋으시고 자세하고 친절하게 설명해 주신 덕분에 편안하게 체험할 수 있었습니다.
+            당근 보고 왔다고 하니 2만원정도 하는 디톡스 차 서비스로 주셨습니다^^
+            땀을 쭉 빼고 와서 그런지 몸이 개운합니다~
+            수술한 무릎과 돌덩이 같은 어깨의 통증 치료에 효과를 볼수 있기를 바랍니다.
+            오늘 감사 했습니다~~</div>
+          <div class="nearby_store_review_info card" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="review_info_thumbnail col-2">
+                <img src="https://dnvefa72aowie.cloudfront.net/business/bizPlatform/profile/16133326/1624014174301/751dbdb1a4ca43f26eca34c93934cb9d960b3e9121663a914a1fef6d5b780f96.jpeg?q=82&s=640x640&t=crop" class="rounded-start w-100 h-100" alt="...">
+              </div>
+              <div class="col-8 d-flex flex-column justify-content-center ps-3">
+                <div>다이어트뷰티카페 미타임</div>
+                <div class="store_item_content_review">
+                  <span>후기 20</span>
+                  <i class="bi bi-dot"></i>
+                  <span>단골 96</span>
+                  <i class="bi bi-dot"></i>
+                  <span>카페</span>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="" class="nearby_store_review d-flex flex-column border rounded">
+          <div class="nearby_store_review_reviewer d-flex align-items-center">
+            <div class="reviewr_info_thumbnail d-flex align-items-center">
+              <img class="rounded-circle w-100 h-100" src="https://dnvefa72aowie.cloudfront.net/origin/profile/202206/7b7f15cdc5834f68aeea58ab97d3a2a52166d8c6d274c537b4d331cd8888ddb7.webp?q=82&amp;s=640x640&amp;t=crop" alt="">
+            </div>
+            <div class="review_info_content d-flex flex-column justify-content-center ms-3">
+              <div class="d-flex">
+                <span class="fs-6 fw-bold me-2">ABC쥬스맛있어</span>
+                <div class="reviewer-info-content__badge rounded-pill"></div>
+              </div>
+              <span class="store_item_content_more">연동 인증 0회</span>
+            </div>
+          </div>
+          <div class="text-trunc_twoline mb-2">후기먼저 쓰고 세차받기!
+            대만족 미리 예상
+            +
+            세차 후 사진 업로드 완료
+            첫번째 비교사진
+            광이 살아났네요!^^</div>
+          <div class="nearby_store_review_info card" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="review_info_thumbnail col-2">
+                <img src="https://dnvefa72aowie.cloudfront.net/business/bizPlatform/profile/7561971/1652343504992/NTVmNTZiZWIxMTA5OGRhOTQ0ZDU1OTgwNjYxYjRlOTdmYzMwMzcyYTNjMmU5MTZhYjI1ZTU5YmJmZTZhZmYyZS5qcGc=.jpeg?q=82&amp;s=640x640&amp;t=crop" class="rounded-start w-100 h-100" alt="...">
+              </div>
+              <div class="col-8 d-flex flex-column justify-content-center ps-3">
+                <div>디테일링K</div>
+                <div class="store_item_content_review">
+                  <span>후기 15</span>
+                  <i class="bi bi-dot"></i>
+                  <span>단골 253</span>
+                  <i class="bi bi-dot"></i>
+                  <span>광택전문점</span>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="" class="nearby_store_review d-flex flex-column border rounded">
+          <div class="nearby_store_review_reviewer d-flex align-items-center">
+            <div class="reviewr_info_thumbnail d-flex align-items-center">
+              <img class="rounded-circle w-100 h-100" src="https://dnvefa72aowie.cloudfront.net/origin/profile/202003/9848f31c9a66dc4fbb3d1de9b0ff87ec39f1f700adb97ac4c0ac5e23a82dfd03.webp?q=82&s=640x640&t=crop" alt="">
+            </div>
+            <div class="review_info_content d-flex flex-column justify-content-center ms-3">
+              <div class="d-flex">
+                <span class="fs-6 fw-bold me-2">철이율이맘</span>
+                <div class="reviewer-info-content__badge rounded-pill">단골</div>
+              </div>
+              <span class="store_item_content_more">율량.사천동 인증 20회</span>
+            </div>
+          </div>
+          <div class="text-trunc_twoline mb-2">사장님 쎈스가 아주 돋보이는 하루였습니다. 꼼꼼히 체크체크 해주시고, 이런저런 댕댕이 이야기도 하고, 세상사는 이야깃 거릴 하고와서 스트레스 좀 풀고 왔어염~^^;; 말많은 아짐씨가 왔다고 할 만큼 구찮게 하고 왔지요~^^ ㅋㅋ 거기에 울댕댕이 까지 합세해서~^^;; 사장님 혼을 쏘옥 빼고 왔뜨랬쪙~^^;; 사실 예약하기 힘든데, 바로바로 해 주셔서 고마웠어여~~~♡ 번창하시고, 네,일해요 홧팅!! 덕분에 오늘 최고의 하루였습니다. 감솨합니당~~~~~🥰😍🤩😘😗☺😚😙😜</div>
+          <div class="nearby_store_review_info card" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="review_info_thumbnail col-2">
+                <img src="https://dnvefa72aowie.cloudfront.net/business/bizPlatform/profile/21935527/1646719321219/bbc92bfd9aac0ce0ef7381d488b9ffb42c31d19ad14dbd0c42ef8460864b419c.jpeg?q=82&s=640x640&t=crop" class="rounded-start w-100 h-100" alt="...">
+              </div>
+              <div class="col-8 d-flex flex-column justify-content-center ps-3">
+                <div>네,일해요</div>
+                <div class="store_item_content_review">
+                  <span>후기 85</span>
+                  <i class="bi bi-dot"></i>
+                  <span>단골 428</span>
+                  <i class="bi bi-dot"></i>
+                  <span>네일샵</span>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="" class="nearby_store_review d-flex flex-column border rounded">
+          <div class="nearby_store_review_reviewer d-flex align-items-center">
+            <div class="reviewr_info_thumbnail d-flex align-items-center">
+              <img class="rounded-circle w-100 h-100" src="https://dnvefa72aowie.cloudfront.net/origin/profile/202106/9261c422b0099cc267540f5399ba38324cab381afb98b27b1f1aef6f17cea36c.webp?q=82&s=640x640&t=crop" alt="">
+            </div>
+            <div class="review_info_content d-flex flex-column justify-content-center ms-3">
+              <div class="d-flex">
+                <span class="fs-6 fw-bold me-2">아산홍길동</span>
+                <div class="reviewer-info-content__badge rounded-pill">단골</div>
+              </div>
+              <span class="store_item_content_more">배방읍 인증 20회</span>
+            </div>
+          </div>
+          <div class="text-trunc_twoline mb-2">사장님 컷트실력 최고예요 ~
+            어쩜 그렇게 맘에 쏙들게 해주시는지~
+            한번 가보세요~단골이 될거예요~</div>
+          <div class="nearby_store_review_info card" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="review_info_thumbnail col-2">
+                <img src="https://dnvefa72aowie.cloudfront.net/business/bizPlatform/profile/30951647/1673354702558/M2M5MGE0ZTViY2Y1MDVjM2Q3YzRhZjQ3YWMwYTgwZGQzODY3YzgzMDIzY2ZkZWI4NWM5NjczZTkwZmE1ZmUzZi5qcGc=.jpeg?q=82&s=640x640&t=crop" class="rounded-start w-100 h-100" alt="...">
+              </div>
+              <div class="col-8 d-flex flex-column justify-content-center ps-3">
+                <div>남성컷트전문점 (Mr.멋남)</div>
+                <div class="store_item_content_review">
+                  <span>후기 50</span>
+                  <i class="bi bi-dot"></i>
+                  <span>단골 191</span>
+                  <i class="bi bi-dot"></i>
+                  <span>남성미용실</span>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </a>
+      </li>
+    </ul>
+  </section>
+
+  <section class="w-100 d-flex justify-content-center mb-5">
+    <div class="w-100 banner banner--nearby-store d-flex align-items-center">
+      <div class="banner__img banner__img--nearby-store me-3">
+        <img class="w-100 h-100" src="https://www.daangn.com/_next/static/media/ic_category_town_colored_m.13979d69.svg" alt="">
+      </div>
+      <div class="banner__content">
+        <h6 class="fw-bold">가게를 운영하고 계신가요?</h6>
+        <span>당근마켓에 등록하고 이웃에게 알려보세요!</span>
+      </div>
+      <div class="banner__btn-container">
+        <a href="" class="banner__btn">비즈프로필 만들기</a>
+      </div>
+    </div>
+  </section>
+
+  <div include-html="./footer.html">
+    <script>
+      includeHTML();
+    </script>
+  </div>
+
+</body>
+<script type="module" src="../Scipts/nearbyStore.js"></script>
+
+</html>

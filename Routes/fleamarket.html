@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+
+
+  <script src="../Scipts/includeHTML.js"></script>
+  <link rel="stylesheet" href="../styles/carrotlabel.css">
+  <link rel="stylesheet" href="../styles/carrotitems.css">
+  <link rel="stylesheet" href="../styles/header_stylesheet.css">
+  <link rel="stylesheet" href="../styles/footer.css">
+</head>
+
+<body>
+
+  <!-- header -->
+  <div include-html="./header.html">
+    <script>
+      includeHTML();
+    </script>
+  </div>
+
+
+  <main>
+    <section class="fleamarket-label">
+
+      <!-- 페이지 라벨 -->
+      <div class="label-content">
+        <h1 class="label-title">
+          믿을만한<br>이웃 간 중고거래
+        </h1>
+        <span class="label-description">
+          동네 주민들과 가깝고 따뜻한 거래를<br>지금 경험해보세요.
+        </span>
+        <!-- 단순 텍스트나 텍스트에 관련된 마크업 등 구문 콘텐츠에 
+          스타일이나 자바스크립트를 적용하기 위한 범위를 감싸주거나, 
+          HTML 속성을 적용하기 위한 범위를 감싸주기 위해 사용 -->
+
+        <!-- 윈도우, 모바일 환경별로 이미지를 생성했다. 미디어쿼리로 한 번에 처리 할 수 있을까? -->
+        <div class="fleamarket-label-image">
+          <span class="fleamarket-label-image-window">
+            <img src="../images/fleamarket-label-img.webp" alt="믿을만한 이웃 간 중고거래">
+          </span>
+          <span class="fleamarket-label-image-mobile">
+            <img src="../images/fleamarket-label-img.webp" alt="믿을만한 이웃 간 중고거래">
+          </span>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- 상품 리스트 -->
+    <section class="fleamarket-items">
+      <!-- h1은 관념상 페이지 당 하나로 알고 있는데, 섹션으로 나눠진다면 괜찮은걸까 -->
+      <h1 class="items-list-title">중고거래 인기매물</h1>
+
+      <div class="fleamarket-items-list">
+        <!-- js로 리스트 생성 -->
+      </div>
+
+      <div class="items-list-more">
+        <!-- 인라인 스타일을 할 경우 적용이 되는데 왜 css 파일 작성은 적용이 안될까? -->
+        <a style="color: inherit; font-weight: bold; font-size: 1.2rem; line-height: 1.5;" target="_blank" class="to-more-items" href="">인기매물 더 보기</a>
+      </div>
+    </section class="fleamarket-keywords">
+
+
+    <!-- 하단 인기 키워드 -->
+    <section class="keywords-popular">
+      <h3 class="keywords-title">
+        <a href="">중고거래 인기검색어</a>
+      </h3>
+      <ul class="keywords-list">
+        <li class="keyword-item">
+          <a class="keyword-link" href="">순금</a>
+        </li>
+        <li class="keyword-item">
+          <a class="keyword-link" href="">알바</a>
+        </li>
+        <li class="keyword-item">
+          <a class="keyword-link" href="">나눔</a>
+        </li>
+        <li class="keyword-item">
+          <a class="keyword-link" href="">자전거</a>
+        </li>
+        <li class="keyword-item">
+          <a class="keyword-link" href="">패딩</a>
+        </li>
+        <li class="keyword-item">
+          <a class="keyword-link" href="">아이폰</a>
+        </li>
+        <li class="keyword-item">
+          <a class="keyword-link" href="">귤</a>
+        </li>
+        <li class="keyword-item">
+          <a class="keyword-link" href="">의자</a>
+        </li>
+        <li class="keyword-item">
+          <a class="keyword-link" href="">24k</a>
+        </li>
+      </ul>
+    </section>
+  </main>
+
+
+  <!-- footer -->
+  <div include-html="./footer.html">
+    <script>
+      includeHTML();
+    </script>
+  </div>
+
+</body>
+<script type="module" src="../Scipts/fleamarket.js"></script>
+
+
+</html>

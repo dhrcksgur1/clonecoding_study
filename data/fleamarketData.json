@@ -1,0 +1,98 @@
+[
+    {
+        "id": 1,
+        "name": "갤럭시북3",
+        "price": "350,000원",
+        "region": "서울",
+        "imgLink": "../images/fleamarket/갤럭시북3procopy.png",
+        "itemLink": "../Routes/carretMarketProduct1.html"
+    },
+    {
+        "id": 2,
+        "name": "맥북 중고",
+        "price": "440,000원",
+        "region": "은평구",
+        "imgLink": "../images/fleamarket/맥북AirM1copy.png",
+        "itemLink": "../Routes/carretMarketProduct2.html"
+    },
+    {
+        "id": 3,
+        "name": "고프로 싸게 처분",
+        "price": "140,000원",
+        "region": "서울대입구역",
+        "imgLink": "../images/fleamarket/고프로10copy.png",
+        "itemLink": "../Routes/carretMarketProduct1.html"
+    },
+    {
+        "id": 4,
+        "name": "로지텍 마우스 팝니다",
+        "price": "120,000원",
+        "region": "동대문",
+        "imgLink": "../images/fleamarket/로지텍GPROcopy.png",
+        "itemLink": "../Routes/carretMarketProduct1.html"
+    },
+    {
+        "id": 5,
+        "name": "키보드 깨끗함",
+        "price": "90,000원",
+        "region": "동대문",
+        "imgLink": "../images/fleamarket/리얼포스r3copy.png",
+        "itemLink": "../Routes/carretMarketProduct1.html"
+    },
+    {
+        "id": 6,
+        "name": "에어팟 한 쪽 없어요",
+        "price": "50,000원",
+        "region": "서울",
+        "imgLink": "../images/fleamarket/에어팟프로2copy.png",
+        "itemLink": "../Routes/carretMarketProduct1.html"
+    },
+    {
+        "id": 7,
+        "name": "책상 삽니다",
+        "price": "50,000원",
+        "region": "서울",
+        "imgLink": "../images/fleamarket/책상.jpg",
+        "itemLink": "../Routes/carretMarketProduct1.html"
+    },
+    {
+        "id": 8,
+        "name": "화장품 일괄",
+        "price": "70,000원",
+        "region": "서울",
+        "imgLink": "../images/fleamarket/marissa-grootes-D4jRahaUaIc-unsplash.jpg",
+        "itemLink": "../Routes/carretMarketProduct1.html"
+    },
+    {
+        "id": 9,
+        "name": "나무의자",
+        "price": "10,000원",
+        "region": "서울",
+        "imgLink": "../images/fleamarket/의자.jpg",
+        "itemLink": "../Routes/carretMarketProduct1.html"
+    },
+    {
+        "id": 10,
+        "name": "아령 무거움",
+        "price": "45,000원",
+        "region": "서울",
+        "imgLink": "../images/fleamarket/아령.jpg",
+        "itemLink": "../Routes/carretMarketProduct1.html"
+    },
+    {
+        "id": 11,
+        "name": "헬스장 폐업 세일",
+        "price": "200,000원",
+        "region": "서울",
+        "imgLink": "../images/fleamarket/레그프레스.jpg",
+        "itemLink": "../Routes/carretMarketProduct1.html"
+    },
+    {
+        "id": 12,
+        "name": "PS5 2022년 구매",
+        "price": "340,000원",
+        "region": "서울",
+        "imgLink": "../images/fleamarket/ps5.jpg",
+        "itemLink": "../Routes/carretMarketProduct1.html"
+    }
+]

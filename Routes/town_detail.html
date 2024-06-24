@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>동네업체</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="../styles/town_detail.css" />
+  <script src="../Scipts/includeHTML.js"></script>
+  <link rel="stylesheet" href="../styles/header_stylesheet.css">
+  <link rel="stylesheet" href="../styles/footer.css">
+</head>
+
+<body>
+  <div include-html="./header.html">
+    <script>
+      includeHTML();
+    </script>
+  </div>
+
+  <main class="body">
+    <div id="main-body">
+      <div id="main-content">
+        <!-- 상품 상세 정보 -->
+        <articel id="main-articel">
+          <!-- 상품 사진 -->
+          <section class="section-image">
+            <div class="dbdud">
+              <img class="main-image" src="../images/떡볶이.png" />
+            </div>
+          </section>
+          <!-- 판매자 정보 -->
+          <section class="section-profile">
+            <div class="seller-container">
+              <div class="seller-data">
+                <div class="left-seller">
+                  <img src="../images/프로필2.png" width="40px" height="40px" />
+                  <div>
+                    <p class="seller-name">떡튀순</p>
+                    <p class="seller-place">부천시 심곡동 · 떡볶이전문 · 단골 1,929</p>
+                  </div>
+                </div>
+                <div class="right-frequenter">
+                  <button class="right-button">
+                    단골 맺기
+                  </button>
+                </div>
+              </div>
+              <div class="menu-main">
+                <div class="menu-quick">
+                  <div class="menu-quick-item">
+                    <button class="menu-quick-item-detail">
+                      <img src="../images/전화.png" alt="" style="width: 37px; height: 37px;">
+                      <span style="font-size: .875rem;">전화 문의</span>
+                    </button>
+                  </div>
+                  <div class="menu-quick-item" style="border-left: 1px solid #faf9f9;">
+                    <button class="menu-quick-item-detail">
+                      <img src="../images/채팅.png" alt="" style="width: 37px; height: 37px;">
+                      <span style="font-size: .875rem;">채팅 문의</span>
+                    </button>
+                  </div>
+                  <div class="menu-quick-item" style="border-left: 1px solid #faf9f9;">
+                    <button class="menu-quick-item-detail">
+                      <img src="../images/후기.png" alt="" style="width: 37px; height: 37px;">
+                      <span style="font-size: .875rem;">후기 작성</span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- 가게 정보 메뉴 -->
+          <section class="section-description">
+            <div class="article-body">
+              <div class="tab-group-list">
+                <div class="tab-group-list-base">
+                  <div class="tab-group-item-list">
+                    <button class="tab-group-item">홈</button>
+                  </div>
+                  <div class="tab-group-item-list">
+                    <button class="tab-group-item">소식</button>
+                  </div>
+                  <div class="tab-group-item-list">
+                    <button class="tab-group-item">상품</button>
+                  </div>
+                  <div class="tab-group-item-list">
+                    <button class="tab-group-item">후기</button>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </section>
+        </articel>
+        <!-- 가게 정보 -->
+        <section id="used-article-ad">
+          <div class="items">
+            <div class="product-data">
+              <p class="article-title">정보</p>
+            </div>
+            <div class="article-text">
+              안녕하세요<br />
+              부천시장 떡튀순입니다~
+            </div>
+            <div class="article-place">
+              <div class="article-img">
+                <img src="../images/위치.png" alt="">
+              </div>
+              <div class="article-message">부천시 심곡동 심곡로5길 25 1층 떡튀순</div>
+            </div>
+          </div>
+          <div class="items">
+            <div class="product-data">
+              <p class="article-title">가격</p>
+            </div>
+            <ul role="list" class="main-menus">
+              <li class="main-menu-list">
+                <div>
+                  <div class="main-menu-top">
+                    <div class="main-menu-name">
+                      <span>오뎅</span>
+                    </div>
+                    <div class="main-menu-price">
+                      <span class="main-menu-line"></span>
+                      <span>2,000원</span>
+                    </div>
+                  </div>
+                  <p style="font-size: 13px; color: #838080;">3개</p>
+                </div>
+              </li>
+            </ul>
+            <ul role="list" class="main-menus">
+              <li class="main-menu-list">
+                <div>
+                  <div class="main-menu-top">
+                    <div class="main-menu-name">
+                      <span>떡볶이</span>
+                    </div>
+                    <div class="main-menu-price">
+                      <span class="main-menu-line"></span>
+                      <span>3,500원</span>
+                    </div>
+                  </div>
+                  <p style="font-size: 13px; color: #838080;">1인분</p>
+                </div>
+              </li>
+            </ul>
+            <ul role="list" class="main-menus">
+              <li class="main-menu-list">
+                <div>
+                  <div class="main-menu-top">
+                    <div class="main-menu-name">
+                      <span>순대</span>
+                    </div>
+                    <div class="main-menu-price">
+                      <span class="main-menu-line"></span>
+                      <span>3,500원</span>
+                    </div>
+                  </div>
+                  <p style="font-size: 13px; color: #838080;">1인분</p>
+                </div>
+              </li>
+            </ul>
+            <ul role="list" class="main-menus">
+              <li class="main-menu-list">
+                <div>
+                  <div class="main-menu-top">
+                    <div class="main-menu-name">
+                      <span>튀김</span>
+                    </div>
+                    <div class="main-menu-price">
+                      <span class="main-menu-line"></span>
+                      <span>3,000원</span>
+                    </div>
+                  </div>
+                  <p style="font-size: 13px; color: #838080;">5개</p>
+                </div>
+              </li>
+            </ul>
+            <ul role="list" class="main-menus">
+              <li class="main-menu-list">
+                <div>
+                  <div class="main-menu-top">
+                    <div class="main-menu-name">
+                      <span>고기만두</span>
+                    </div>
+                    <div class="main-menu-price">
+                      <span class="main-menu-line"></span>
+                      <span>3,500원</span>
+                    </div>
+                  </div>
+                  <p style="font-size: 13px; color: #838080;">1인분</p>
+                </div>
+              </li>
+            </ul>
+            <ul role="list" class="main-menus">
+              <li class="main-menu-list">
+                <div>
+                  <div class="main-menu-top">
+                    <div class="main-menu-name">
+                      <span>마약김밥</span>
+                    </div>
+                    <div class="main-menu-price">
+                      <span class="main-menu-line"></span>
+                      <span>3,500원</span>
+                    </div>
+                  </div>
+                  <p style="font-size: 13px; color: #838080;">2줄</p>
+                </div>
+              </li>
+            </ul>
+            <ul role="list" class="main-menus">
+              <li class="main-menu-list">
+                <div>
+                  <div class="main-menu-top">
+                    <div class="main-menu-name">
+                      <span>튀김우동</span>
+                    </div>
+                    <div class="main-menu-price">
+                      <span class="main-menu-line"></span>
+                      <span>5,000원</span>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <!-- 가게 후기 -->
+          <div class="items">
+            <div class="product-data">
+              <p class="article-title">후기</p>
+            </div>
+            <ul role="list" class="main-review">
+              <li class="main-review-list">
+                <div class="main-review-top">
+                  <div class="main-review-user">
+                    <div class="main-review-user-img">
+                      <img src="../images/프로필2.PNG" alt="">
+                    </div>
+                    <div class="main-review-user-profile">
+                      <div class="main-review-user-profile-name">
+                        <span>빛나요</span>
+                      </div>
+                      <span style="font-size: 13px; color: #838080;">심곡1동 인증 23회 · 약 2년</span>
+                    </div>
+                  </div>
+                  <div style="margin: 15px 0;">
+                    <p style="font-weight: bold;">떡볶이, 순대, 튀김</p>
+                  </div>
+                  <div>
+                    <p>
+                      맛있게 잘먹었습니다<br>
+                      다음에 또 올게요<br>
+                      번창하세요
+                    </p>
+                    <div class="main-review-img">
+                      <div class="main-review-img-top">
+                        <div class="main-review-img-left">
+                          <div class="main-review-img2">
+                            <img src="../images/떡볶이.png" alt="" style="width: 99%;">
+                          </div>
+                        </div>
+                        <div class="main-review-img-right">
+                          <div class="main-review-img1" style="margin-bottom: 5px;">
+                            <div class="main-review-img2">
+                              <img src="../images/순대.png" alt="">
+                            </div>
+                          </div>
+                          <div class="main-review-img1">
+                            <div class="main-review-img2">
+                              <img src="../images/튀김.png" alt="">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="main-review-tag">
+                      <span class="review-tags">맛있어요</span>
+                      <span class="review-tags">친절해요</span>
+                      <span class="review-tags">가격이 저렴해요</span>
+                      <span class="review-tags">품질이 좋아요</span>
+                    </div>
+                    <div class="main-review-tag">
+                      <span style="color: #868b94;">도움돼요 1</span>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+            <div style="margin-top: 1rem;">
+              <a href="#" class="items-button">후기 더보기</a>
+            </div>
+          </div>
+          <!-- 가게 소식 -->
+          <div class="items">
+            <div class="product-data">
+              <p class="article-title">소식</p>
+            </div>
+            <ul class="main-news">
+              <li class="main-news-top">
+                <a href="#" class="main-news-item">
+                  <div class="main-news-img">
+                    <img src="../images/떡볶이.png" alt="">
+                  </div>
+                  <div class="main-news-text1">
+                    <span class="main-news-text2">분식의 꽃으로 즐거운 홈파티 ~~~</span>
+                    <span class="main-news-text3">댓글 3 · 관심 7</span>
+                  </div>
+                </a>
+              </li>
+              <li class="main-news-top">
+                <a href="#" class="main-news-item">
+                  <div class="main-news-img">
+                    <img src="../images/떡볶이.png" alt="">
+                  </div>
+                  <div class="main-news-text1">
+                    <span class="main-news-text2">분식 먹으러 오세요</span>
+                    <span class="main-news-text3">댓글 3 · 관심 7</span>
+                  </div>
+                </a>
+              </li>
+              <li class="main-news-top">
+                <a href="#" class="main-news-item">
+                  <div class="main-news-img">
+                    <img src="../images/떡볶이.png" alt="">
+                  </div>
+                  <div class="main-news-text1">
+                    <span class="main-news-text2">분식의 꽃으로 즐거운 홈파티 ~~~</span>
+                    <span class="main-news-text3">댓글 3 · 관심 7</span>
+                  </div>
+                </a>
+              </li>
+              <li class="main-news-top">
+                <a href="#" class="main-news-item">
+                  <div class="main-news-img">
+                    <img src="../images/떡볶이.png" alt="">
+                  </div>
+                  <div class="main-news-text1">
+                    <span class="main-news-text2">분식의 꽃으로 즐거운 홈파티 ~~~</span>
+                    <span class="main-news-text3">댓글 3 · 관심 7</span>
+                  </div>
+                </a>
+              </li>
+            </ul>
+            <div style="margin-top: 1rem;">
+              <a href="#" class="items-news-button">소식 더보기</a>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </main>
+
+  <div include-html="./footer.html">
+    <script>
+      includeHTML();
+    </script>
+  </div>
+</body>
+
+</html>

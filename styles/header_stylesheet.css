@@ -1,0 +1,84 @@
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+.header {
+	width: 100%;
+	background-color: #fff;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 999;
+}
+
+.header .header-wrap {
+	width: 1200px;
+	margin: 0 auto;
+	justify-content: space-between;
+	display: flex;
+	height: 64px;
+	box-sizing: border-box;
+	align-items: center;
+	padding: 12px 20px;
+	box-sizing: border-box;
+}
+
+.nav ul {
+	display: flex;
+	line-height: 80px;
+	margin: 0 auto;
+}
+
+.nav ul li {
+	font-size: 18px;
+	text-align: center;
+	cursor: pointer;
+	margin-right: 30px;
+	color: #415d59;
+	font-weight: bold;
+}
+
+.nav ul li:nth-child(5) {
+	padding-right: 40px;
+}
+
+.nav ul li:hover {
+	opacity: 0.5;
+}
+
+.chat {
+	font-size: 12px;
+}
+
+.chat input[type=search] {
+	flex-basis: 10%;
+	width: 264px;
+	padding: 9px 12px;
+	height: 40px;
+	margin: 16px 0;
+	border-radius: 6px;
+	border: 1px solid white;
+	background-color: #eee;
+	font-size: 14px;
+}
+
+.chat button {
+	width: 100px;
+	padding: 8px 16px;
+	color: #212529;
+	border-radius: 6px;
+	border: 1px solid gray;
+	background-color: #fff;
+	font-weight: bold;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+.chat button:hover {
+	opacity: 0.7;
+}

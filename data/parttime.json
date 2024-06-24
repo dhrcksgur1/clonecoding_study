@@ -1,0 +1,162 @@
+[
+    {
+        "id": 1,
+        "name": "식당 알바",
+        "price": "10,000원",
+        "region": "서울",
+        "imgLink": "../images/parttime/식당1.jpg",
+        "itemLink": "../Routes/parttime_detail.html"
+    },
+    {
+        "id": 2,
+        "name": "성실하게 일하실 분만",
+        "price": "9,800원",
+        "region": "은평구",
+        "imgLink": "../images/parttime/편의점1.jpg",
+        "itemLink": "../Routes/parttime_detail.html"
+    },
+    {
+        "id": 3,
+        "name": "택배 상하차",
+        "price": "10,000원",
+        "region": "서울대입구역",
+        "imgLink": "../images/parttime/상하차1.jpg",
+        "itemLink": "../Routes/parttime_detail.html"
+    },
+    {
+        "id": 4,
+        "name": "서빙, 테이블 정리",
+        "price": "11,000원",
+        "region": "동대문",
+        "imgLink": "../images/parttime/식당2.jpg",
+        "itemLink": "../Routes/parttime_detail.html"
+    },
+    {
+        "id": 5,
+        "name": "영어 번역 가능하신 분",
+        "price": "11,000원",
+        "region": "동대문",
+        "imgLink": "../images/parttime/영어번역.jpg",
+        "itemLink": "../Routes/parttime_detail.html"
+    },
+    {
+        "id": 6,
+        "name": "9시부터 6시까지",
+        "price": "10,000원",
+        "region": "서울",
+        "imgLink": "../images/parttime/공사장.jpg",
+        "itemLink": "../Routes/parttime_detail.html"
+    },
+    {
+        "id": 7,
+        "name": "내일 하루만 도와주실분",
+        "price": "60,000원",
+        "region": "서울",
+        "imgLink": "../images/parttime/리모델링.jpg",
+        "itemLink": "../Routes/parttime_detail.html"
+    },
+    {
+        "id": 8,
+        "name": "경복궁 길 안내",
+        "price": "10,000원",
+        "region": "서울",
+        "imgLink": "../images/parttime/경복궁.jpg",
+        "itemLink": "../Routes/parttime_detail.html"
+    },
+    {
+        "id": 9,
+        "name": "카페 일하신 분만",
+        "price": "11,000원",
+        "region": "서울",
+        "imgLink": "../images/parttime/카페1.webp",
+        "itemLink": "../Routes/parttime_detail.html"
+    },
+    {
+        "id": 10,
+        "name": "식당 서빙, 테이블 정리",
+        "price": "12,000원",
+        "region": "서울",
+        "imgLink": "../images/parttime/식당2.jpg",
+        "itemLink": "../Routes/parttime_detail.html"
+    },
+    {
+        "id": 11,
+        "name": "주방 2명",
+        "price": "12,000원",
+        "region": "서울",
+        "imgLink": "../images/parttime/주방1.jpg",
+        "itemLink": "../Routes/parttime_detail.html"
+    },
+    {
+        "id": 12,
+        "name": "무거운 거 나르는 일, 시급 좋음",
+        "price": "10,000원",
+        "region": "서울",
+        "imgLink": "../images/parttime/상하차3.jpg",
+        "itemLink": "../Routes/parttime_detail.html"
+    },
+    {
+        "id": 13,
+        "name": "단순 조립",
+        "price": "9,800원",
+        "region": "서울",
+        "imgLink": "../images/parttime/조립.jpg",
+        "itemLink": "../Routes/parttime_detail.html"
+    },
+    {
+        "id": 14,
+        "name": "주차 안내 알바",
+        "price": "10,000원",
+        "region": "서울",
+        "imgLink": "../images/parttime/주차.jpg",
+        "itemLink": "../Routes/parttime_detail.html"
+    },
+    {
+        "id": 15,
+        "name": "편의점 급구",
+        "price": "11,000원",
+        "region": "서울",
+        "imgLink": "../images/parttime/편의점2.jpg",
+        "itemLink": "../Routes/parttime_detail.html"
+    },
+    {
+        "id": 16,
+        "name": "친구가 도망쳤어요, 도와주세요",
+        "price": "11,000원",
+        "region": "서울",
+        "imgLink": "../images/parttime/상하차2.jpg",
+        "itemLink": "../Routes/parttime_detail.html"
+    },
+    {
+        "id": 17,
+        "name": "맥도날드 파트타임 구함",
+        "price": "10,000원",
+        "region": "서울",
+        "imgLink": "../images/parttime/맥도날드.png",
+        "itemLink": "../Routes/parttime_detail.html"
+    },
+    {
+        "id": 18,
+        "name": "카페 알바 구함",
+        "price": "10,500원",
+        "region": "서울",
+        "imgLink": "../images/parttime/카페2.jpg",
+        "itemLink": "../Routes/parttime_detail.html"
+    },
+    {
+        "id": 19,
+        "name": "식당 조리",
+        "price": "12,000원",
+        "region": "서울",
+        "imgLink": "../images/parttime/주방2.jpg",
+        "itemLink": "../Routes/parttime_detail.html"
+    },
+    {
+        "id": 20,
+        "name": "이사 도움 - 쉬워요!",
+        "price": "10,000원",
+        "region": "서울",
+        "imgLink": "../images/parttime/이사.jpg",
+        "itemLink": "../Routes/parttime_detail.html"
+    }
+]

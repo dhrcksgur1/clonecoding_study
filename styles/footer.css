@@ -1,0 +1,151 @@
+/* 기본세팅 */
+body {
+    box-sizing: border-box;
+    min-height: 10vh;
+    display: flex;
+    flex-direction: column;
+    /*footer를 상단 하단 부로 나누기위해 세로로 배치*/
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.footer {
+    padding: 0 1rem;
+}
+
+/* footer_top */
+.footer_top {
+    display: flex;
+    padding: 10px 0;
+}
+
+/* footer_top_left */
+.footer_top_left {
+    display: flex;
+}
+
+.footer_top_left ul {
+    list-style: none;
+}
+
+.footer_top_left ul:last-child {
+    /*마지막 ul에 우측 여백을 주기 위함*/
+    margin-right: 70px;
+}
+
+.footer_top_left ul li {
+    font-size: 14px;
+    padding: 10px 20px;
+}
+
+.footer_top_left ul li:hover {
+    text-decoration: underline;
+}
+
+/* footer_top_right */
+.footer_top_right {
+    margin-bottom: 20px;
+}
+
+.footer_top_right:first-child {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.footer_top_right_link {
+    display: flex;
+}
+
+.footer_top_right_link a span {
+    display: none;
+}
+
+.footer_top_right a button {
+    width: 147px;
+    height: 45px;
+    margin: 5px 5px 5px 0;
+    padding: auto;
+    border: none;
+    border-radius: 10px;
+    background-color: #f2f3f6;
+    font-weight: 600;
+}
+
+.footer_top_right a button:hover {
+    color: #878c95;
+}
+
+.footer_top_right a button i {
+    margin-right: 8px;
+}
+
+.footer_top_right a span {
+    margin-left: 24px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.footer_top_right a span svg {
+    margin-left: 8px;
+}
+
+/* footer_bottom */
+.footer_bottom {
+    display: flex;
+    padding: 24px 0 100px;
+    border-top: 1px solid #878c95;
+}
+
+/* footer_bottom_left */
+.footer_bottom_left_info span {
+    font-size: 14px;
+    color: #878c95;
+}
+
+.footer_bottom_left_info {
+    margin-bottom: 16px;
+}
+
+.footer_bottom_left_ask,
+.footer_bottom_left_agreement {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: #878c95;
+}
+
+.footer_bottom_left_ask a:hover,
+.footer_bottom_left_agreement a:hover {
+    text-decoration: underline;
+}
+
+.footer_bottom_left_ask a,
+.footer_bottom_left_agreement a {
+    margin-right: 12px;
+}
+
+/* footer_bottom_right */
+.footer_bottom_right {
+    display: flex;
+    align-items: center;
+}
+
+.footer_bottom_right a {
+    margin-right: 8px;
+    padding: 4px;
+    border-radius: 100%;
+}
+
+.footer_bottom_right a:hover {
+    background-color: #f2f3f6;
+}
