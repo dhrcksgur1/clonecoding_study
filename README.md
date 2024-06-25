@@ -26,4 +26,5 @@
 ![image](https://github.com/dhrcksgur1/clonecoding_study/assets/118906074/91fa412b-ba0a-434c-9088-3144a53039e1)
 
 ### Deatail Page - 알바
-![image](https://github.com/dhrcksgur1/clonecoding_study/assets/118906074/a70e8410-9956-49a7-9148-899244304729)
+![image](https://github.com/dhrcksgur1/clonecoding_study/assets/118906074/1075d6e0-aa2d-4515-a679-80f4dbda99e2)
+
